@@ -1,0 +1,229 @@
+body {
+	background-image: url(https://www.pixeden.com/media/k2/galleries/165/001-subtle-light-pattern-background-texture-vol5.jpg);
+}
+
+h1, h2, h3{
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	display: inline;
+}
+
+h1 {
+	font-size: 40px;
+	color: black;
+	border: solid;
+	border-color: black;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	color: black;
+
+}
+
+h3 {
+	font-size: 20px;
+	color: black;
+	text-align: center;
+}
+
+header {
+	display: inline-block;
+	background-color: black;
+	padding: 4px;
+	margin-left: 10px;
+}
+
+
+/* Start: Navigation Bar */
+
+#nav {
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-sarif;
+	border: solid;
+	border-color: black;
+	float: right;
+	width: 600px;
+	margin: 0 20px 0 20;
+	padding-left: 10px;
+	list-style: none;
+	display: inline;
+	background-color: black;
+}
+
+
+.navbtn {
+	display: inline;
+	margin-right: 10px;
+
+}
+
+#portfolio {
+	float: left;
+}
+
+#contact {
+	padding-left: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* End: Navigation Bar */
+
+
+/* Start: Links */
+
+a{
+	text-decoration: none;
+}
+
+a:link {
+    color: white; 
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+    opacity: 75%;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* End: Links */
+
+
+/* Start: index.html */
+
+
+
+#main{
+	border: solid;
+	border-color: black;
+	border-radius: 12px;
+	float: left;
+	margin-top: 5px;
+	padding: 15px;
+	width: 650px;
+}
+
+
+#connect {
+	display: inline-block;
+	border: solid;
+	border-color: black;
+	border-radius: 12px;
+	float: right;
+	width: 270px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+.smbtn{
+	display: inline-block;
+	padding: 10px;
+}
+
+#portrait {
+	width: 250px;
+	height: auto;
+	float: left;
+	display: inline;
+    padding: 0px 20px 0px 0px;
+}
+
+#bio {
+	font-size: 20px;
+	font-family: Arial, Times, serif;
+	color: black;
+	display: inline;
+	padding: 0px 0px 0px 0px;
+    width: 300px;
+    height: 200px;
+}
+
+/* End: index.html */
+
+
+/* Start: Portfolio */
+
+.projects {
+	font-family: Arial, Times, serif;
+	border: solid;
+	border-color: black;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 40px 10px 40px;
+	text-align: center;
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: :url(http://juliarfellows.com/wp-content/uploads/2014/03/icon_4850.png);
+}
+
+.projecttext {
+	padding: 2px;
+	border: solid;
+	border-color: black;
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+
+#hangman {
+
+}
+
+#rpg {
+
+}
+
+#trivia {
+
+}
+
+#rutgers {
+
+}
+
+#rock {
+
+}
+
+/* Start: Connect With Me */
+.connect {
+	display: inline;
+	float: right;
+}
+
+#github, #linkedin, #stackoverflow {
+	width: 60px;
+	height: auto;
+}
+
+.textfield {
+	width: 100%
+}
+
+/* End: Connect With Me */
+
+
+footer {
+	font-size: 12px;
+	font-family: Arial, Times, serif;
+	color: gray;
+	float: left;
+	margin-bottom: 15px;
+	position: fixed;
+	bottom: 0;
+}
+git 
